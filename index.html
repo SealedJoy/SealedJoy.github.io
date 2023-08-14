@@ -18,10 +18,13 @@
       rel="stylesheet"
     />
 
+    <!-- Font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
 
   <body>
-    <nav class="sticky-top py-1">
+    <nav class="py-1">
       <div
         class="container d-flex flex-column flex-md-row justify-content-between"
       >
@@ -56,20 +59,22 @@
     </nav>
 
     <div
-      class="position-relative overflow-hidden d-flex vh-100 p-3 p-md-5 m-md-3 text-center"
+      class="position-relative overflow-hidden d-flex vh-100 p-3 p-md-5 m-md-3 text-center py-3"
     >
       <div class="col-md-5 p-lg-5 mx-auto my-5">
         <h1 class="display-4 font-weight-normal">Hey there! I'm Joseph, a designer and creator based in Hertford, UK.</h1>
 	<a href=pages/about.html> <p class="lead font-weight-normal link-secondary">
           more about me
         </p>
+
 	</a>
+	<i class='fa fa-chevron-down' style='font-size:24px py-5'></i>
       </div>
-      <i class='fas fa-angle-down' style='font-size:24px'></i>
     </div>
 
     <!-- START THE FEATURETTES -->
 
+<div class="overflow-hidden d-flex vw-100 vh-50 p-3 p-md-5 m-md-3">
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading px-3">
@@ -87,7 +92,7 @@
           <img
             class="d-flex justify-content-center featurette-image img-fluid mx-auto py-3"
             alt="3D Design"
-            style="width: 40vw; height: auto"
+            style="width: 48vw; height: auto"
             src="images/cinewhoop.png"
             data-holder-rendered="true"
           />
@@ -97,7 +102,7 @@
 
 
     <div class="row featurette">
-      <div class="col-md-7 order-md-2">
+      <div class="col-md-7 order-md-1">
         <h2 class="featurette-heading px-3">
           App
           <span class="text-muted">Design</span>
@@ -110,19 +115,20 @@
         <a href="pages/app.html">
           <img
             class="d-flex justify-content-center featurette-image img-fluid mx-auto p-3"
-            data-src="holder.js/500x500/auto"
             alt="App & Linux"
-            style="width: 40vw; height: auto"
+            style="width: 47vw; height: auto"
             src="images/tel_phones.png"
             data-holder-rendered="true"
           />
         </a>
       </div>
     </div>
+</div>
 
+<div class="overflow-hidden d-flex vw-100 p-3 p-md-5 m-md-3">
 
     <div class="row featurette">
-      <div class="col-md-7">
+      <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading px-3">
           Graphic <span class="text-muted">Design</span>
         </h2>
@@ -167,11 +173,10 @@
       </div>
     </div>
 
-    <hr class="featurette-divider" />
-
+</div>
     <!-- /END THE FEATURETTES -->
 
-
+		
     <footer class="container py-5">
       <div class="row">
         <div class="col-12 col-md">
@@ -195,7 +200,7 @@
             <line x1="14.31" y1="16" x2="2.83" y2="16"></line>
             <line x1="16.62" y1="12" x2="10.88" y2="21.94"></line>
           </svg>
-          <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+          <small class="d-block mb-3 text-muted">&copy; JSlade 2023</small>
         </div>
         <div class="col-6 col-md">
           <h5>Features</h5>
@@ -208,35 +213,7 @@
             <li><a class="text-muted" href="#">Last time</a></li>
           </ul>
         </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Resource</a></li>
-            <li><a class="text-muted" href="#">Resource name</a></li>
-            <li><a class="text-muted" href="#">Another resource</a></li>
-            <li><a class="text-muted" href="#">Final resource</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Business</a></li>
-            <li><a class="text-muted" href="#">Education</a></li>
-            <li><a class="text-muted" href="#">Government</a></li>
-            <li><a class="text-muted" href="#">Gaming</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>About</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Team</a></li>
-            <li><a class="text-muted" href="#">Locations</a></li>
-            <li><a class="text-muted" href="#">Privacy</a></li>
-            <li><a class="text-muted" href="#">Terms</a></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
+  </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
